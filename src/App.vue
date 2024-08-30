@@ -48,6 +48,7 @@ export default {
         // 26:24 - Получение погоды
         this.weather = response.data;
         this.errorMessage = '';
+		console.log("Привет мир)";
       } catch (error) {
         this.errorMessage = 'City not found. Please try again.';
         this.weather = null;
